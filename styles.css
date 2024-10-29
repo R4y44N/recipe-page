@@ -1,0 +1,52 @@
+/* Set the background color of the entire page */
+body {
+    background-color: #F3E5D8; /* Tan background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove any default margin from body */
+    padding: 20px; /* Add padding to prevent the card from touching the edges */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    overflow-x: hidden; /* Prevent horizontal overflow if content is wider */
+  }
+  
+  /* Ensure card takes up space and has proper styling */
+  .card {
+    background-color: white; /* Set card background color */
+    padding: 20px; /* Add padding to ensure the background appears around the text */
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a soft shadow for depth */
+    max-width: 600px; /* Set a max-width to prevent it from being too wide */
+    width: 100%; /* Ensure it takes up full width of the container */
+    text-align: left; /* Ensure text alignment */
+    display: block; /* Make sure it's a block-level element */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    color: black;
+  }
+  
+
+.card img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.prep-time {
+    background-color: #F8F3F6; /* Light background color to contrast with the card */
+    padding: 15px; /* Add padding to make the background extend beyond the text */
+    border-radius: 8px; /* Optional: rounded corners for a card-like appearance */
+    margin-bottom: 20px; /* Add margin to separate it from other sections */
+    width: 100%; /* Ensure it takes up full width of its parent container */
+    display: block; /* Ensure it's a block element and takes up space */
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+  }
+
+li{
+    margin: 7px;
+}
+
+#prep-title{
+    color: #6b214a;
+    font-size: 18px;
+}
